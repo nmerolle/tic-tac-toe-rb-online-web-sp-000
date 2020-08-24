@@ -103,7 +103,7 @@ end
   end
 end     
 
-end
+
 
 def play(board)
   while !over?(board) && !won?(board) && !draw?(board) 
