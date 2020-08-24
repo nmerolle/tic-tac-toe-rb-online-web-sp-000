@@ -103,12 +103,8 @@ def winner(board)
   end
 end
 
-#def play(board)
-# if !over?(board)
-#  puts "Where would you like to go?"
-#user_input = gets.strip
-#index = input_to_index(user_input)
-#move(board, index, current_player)
-#display_board(board)
-#elsif if 
-#end
+def play(board)
+   if !over?(board)
+     puts ""
+
+
