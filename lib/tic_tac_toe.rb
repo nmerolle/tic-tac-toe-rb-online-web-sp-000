@@ -103,8 +103,9 @@ def winner(board)
   end
 end
 
-#def play(board)
-#  if !over?(board) && !won?(board) && !draw?(board) 
-#    turn(board)
-#end
+def play(board)
+  if !over?(board) && !won?(board) && !draw?(board) 
+    turn(board)
+  end
+end
 
