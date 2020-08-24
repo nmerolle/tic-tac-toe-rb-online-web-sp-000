@@ -104,7 +104,7 @@ def winner(board)
 end
 
 def play(board)
-   if !over?(board)
-     puts ""
-
+  if !over?(board) && !won?(board) && !draw?(board) 
+    turn(board)
+end
 
